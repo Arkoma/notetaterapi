@@ -17,7 +17,7 @@ server.use(morgan('combined'));
 // server.use(helmet());
 
 const corsOptions = {
-  "origin": "http://localhost:3000",
+  "origin": "http://5ac7b825efbe5d3375399c7b.xenodochial-booth-01fdba.netlify.com/",
   // "AllowedHeaders": ['Content-Type', 'Authorization', 'body'],
   "credentials": true,
   // "methods": ['GET', 'PUT', 'POST', 'DELETE']
