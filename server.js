@@ -17,7 +17,7 @@ server.use(morgan('combined'));
 // server.use(helmet());
 
 const corsOptions = {
-  "origin": "http://www.mynotater.com",
+  "origin": "http://localhost:3000",
   // "AllowedHeaders": ['Content-Type', 'Authorization', 'body'],
   "credentials": true,
   // "methods": ['GET', 'PUT', 'POST', 'DELETE']
