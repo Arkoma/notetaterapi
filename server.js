@@ -17,7 +17,7 @@ server.use(morgan('combined'));
 // server.use(helmet());
 
 const corsOptions = {
-  "origin": "https://infallible-mayer-949d40.netlify.com",
+  "origin": "http://www.mynotater.com",
   // "AllowedHeaders": ['Content-Type', 'Authorization', 'body'],
   "credentials": true,
   // "methods": ['GET', 'PUT', 'POST', 'DELETE']
@@ -27,7 +27,7 @@ const corsOptions = {
 //     next();
 // }); // middleware if I need to add it later
 
-server.use(cors());
+server.use(cors(corsOptions));
 server.use('/api/notes', noteRouter);
 userRouter(server);
 
