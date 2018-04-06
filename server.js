@@ -17,7 +17,7 @@ server.use(morgan('combined'));
 // server.use(helmet());
 
 const corsOptions = {
-  "origin": "http://5ac7b825efbe5d3375399c7b.xenodochial-booth-01fdba.netlify.com",
+  "origin": "https://infallible-mayer-949d40.netlify.com",
   // "AllowedHeaders": ['Content-Type', 'Authorization', 'body'],
   "credentials": true,
   // "methods": ['GET', 'PUT', 'POST', 'DELETE']
